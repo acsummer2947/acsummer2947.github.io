@@ -1,43 +1,46 @@
 @import url(https://fonts.googleapis.com/css?family=Rancho);
 
 div {
-    background-color: #FFE2B8;
+    background-color: #F4F4F4;
     border: 1px black solid;
     padding: 20px;
 }
 
 header {
-    background-color: #FFED74;
+    background-color: #C0B283;
     border: 1px black solid;
-    padding: 20px;
+    padding: 5px;
+    height: 220px;
 }
 
 aside {
-    background-color: #FFC675;
+    background-color: #C0B283;
     border: 1px black solid;
     padding: 20px;
     width: 400px;
-    height: 500px;
+    height: 1550px;
     float: left;
 }
 
 nav {
-    background-color: #E8C66A;
+    background-color: #373737;
     border: 1px black solid;
-    padding: 20px;
+    padding: 5px;
+    height: 480px;
+    width: 350px;
 }
 
 article {
-    background-color: #E89C6C;
+    background-color: #DCD0C0;
     border: 1px black solid;
     padding: 20px;
-    width: 700px;
-    height: 500px;
+    width: 750px;
+    height: 1500px;
     float: right;
 }
 
 footer {
-    background-color: #FF957E;
+    background-color: #C0B283;
     border: 1px black solid;
     padding: 20px;
     height: 50px;
