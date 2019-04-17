@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Rancho);
+
+div {
+    background-color: #F4F4F4;
+    border: 1px black solid;
+    padding: 20px;
+    width: 95%;
+}
+
+header {
+    background-color: #C0B283;
+    border: 1px black solid;
+    padding: 5px;
+    height: 15%;
+}
+
+aside {
+    background-color: #C0B283;
+    border: 1px black solid;
+    padding: 20px;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+nav {
+    background-color: #373737;
+    border: 1px black solid;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+article {
+    background-color: #DCD0C0;
+    border: 1px black solid;
+    padding: 20px;
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+footer {
+    background-color: #C0B283;
+    border: 1px black solid;
+    padding: 20px;
+    height: 20%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+    background-color: black;
+    font-family: 'Verdana', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+h1 {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 3em;
+	font-family: 'Rancho', cursive;
+	text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 2em;
+}
+
+#slogan {
+	font-family: 'Rancho', cursive;
+	font-size: 2em;
+}
+
+ul {
+	  margin: 4em;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  aside {
+    float: none;
+    width: auto;
+  }
+
+  article {
+    float: none;
+    width: auto;
+  }
+
+  img {
+    width: 90%;
+  }
+
+  nav {
+  display; block;
+  margin: 0;
+  }
+  
+  body {
+    font-size: .75em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  aside {
+    float: none;
+    width: auto;
+  }
+
+    article {
+    float: none;
+    width: auto;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  nav {
+  display; block;
+  margin: 0;
+  }
+
+  body {
+    font-size: .6em;
+  }
+}
